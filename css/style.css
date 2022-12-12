@@ -121,7 +121,7 @@ section{
 }
 
 .header .icons div:hover{
-    background: var(--orange);
+    background: royalblue;
     color:#fff;
 }
 
@@ -165,7 +165,7 @@ section{
 }
 
 .header .search-form label:hover{
-    color:var(--orange);
+    color:royalblue;
 }
 
 .features .box-container{
@@ -222,7 +222,7 @@ section{
   background-color: #0169b2;
   padding: 5px;
   border-radius: 5px;
-  width: 400px;
+  width: 260px;
   height: 25px;
   font-size: 15px;
   font-weight: 600;
@@ -274,23 +274,23 @@ section{
   text-align: center;
     margin-top: 2%;
     margin-left: 23%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .features .box-container .box2 .tabel .shalat{
   border: 2px solid white;
-	width: 50%;
+	width: 55%;
 	padding: 15px;
 	border-radius: 30px; 
     margin-left: 5%;
     text-align: center;
     background-color: royalblue;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
 }
 .features .box-container .box2 h3{
-  font-size: 40px;
+  font-size: 15px;
   line-height: 1.8;
   color:royalblue;
 }
@@ -351,7 +351,7 @@ section{
 
 }
 
-@media (max-width:450px){
+@media (max-width:400px){
 
     html{
         font-size: 50%;
