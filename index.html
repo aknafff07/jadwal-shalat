@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Shalat</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+    
+
+    <a href="#" class="logo"> <i class="fa fa-mosque"></i> JadwalShalat </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">home</a>
+        <a href="#products">home</a>
+        <a href="#categories">home</a>
+        <a href="#review">home</a>
+        <a href="#blogs">home</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-mosque" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+
+<section class="features" id="features">
+    
+    <h1 class="heading"> Jadwal <span>Shalat</span> </h1>
+
+    <div class="box-container">
+
+        <div class="containerrr">
+            <h3>DAFTAR KOTA</h3>
+            <form action="" class="form1 input-group">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control input-search" name="" id="search-item" placeholder="Cari Kota ....">
+            </form>
+        
+            <div class="list">
+                <div class="list-group card-list hidden-list">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="forem">
+                <h3>JADWAL SHALAT</h3>
+                <p class="par" id="kota"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg> <span id="judulKota" class="judul-kota"></span></p>
+            <input class="tanggal" type="date" id="dt" onchange="gantiTanggal()"/>
+                <form>
+                    <table class="tabel">
+                        <tr>
+                            <td>Imsak</td>
+                            <td><input class="shalat" type="text" id="imsak"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Subuh</td>
+                            <td><input class="shalat" type="text" id="subuh"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Dhuha</td>
+                            <td><input class="shalat" type="text" id="dhuha"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Terbit</td>
+                            <td><input class="shalat" type="text" id="terbit"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Dzuhur</td>
+                            <td><input class="shalat" type="text" id="dzuhur"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ashar</td>
+                            <td><input class="shalat" type="text" id="ashar"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Maghrib</td>
+                            <td><input class="shalat" type="text" id="maghrib"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Isya</td>
+                            <td><input class="shalat" type="text" id="isya"><br></td>
+                        </tr>
+                    </table>
+                </form> 
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
